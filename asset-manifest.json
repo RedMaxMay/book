@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/book/static/css/main.d4aff467.css",
+    "main.js": "/book/static/js/main.50f2b7d8.js",
+    "static/media/book.png": "/book/static/media/book.c5da0ee0e1153facb001.png",
+    "static/media/article_3.png": "/book/static/media/article_3.813bc6e7ad55ac697029.png",
+    "static/media/article_2.png": "/book/static/media/article_2.55e4c84ac25ffdee225d.png",
+    "static/media/article_1.png": "/book/static/media/article_1.98ce445ff29b08018c2d.png",
+    "static/media/learn.png": "/book/static/media/learn.9025728e300f54c201d6.png",
+    "static/media/author.png": "/book/static/media/author.bf9f2640e08d975d6f04.png",
+    "static/media/atomic_one.png": "/book/static/media/atomic_one.9fbe9445445524a18e89.png",
+    "static/media/the_dark_light.png": "/book/static/media/the_dark_light.e8fd0b6a44fba8111dee.png",
+    "static/media/404.jpg": "/book/static/media/404.aaecef9ceae1125822c1.jpg",
+    "static/media/the_dark_light_book_cover.png": "/book/static/media/the_dark_light_book_cover.b70706e1f49cdae70972.png",
+    "static/media/urban_store.png": "/book/static/media/urban_store.212aa2b40c1ea6773e87.png",
+    "index.html": "/book/index.html",
+    "main.d4aff467.css.map": "/book/static/css/main.d4aff467.css.map",
+    "main.50f2b7d8.js.map": "/book/static/js/main.50f2b7d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4aff467.css",
+    "static/js/main.50f2b7d8.js"
+  ]
+}
