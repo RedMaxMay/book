@@ -73,8 +73,39 @@
   color: var(--yellow);
 }
 
+.mob_menu_wrap {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
   .header_social {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mob_menu_wrap {
+    display: block;
+    margin-left: 40px;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header_left {
+    display: none;
+  }
+
+  .header_container {
+    display: block;
+    padding: 20px;
+  }
+
+  .header_right {
+    display: flex;
+    justify-content: space-between;
   }
 }

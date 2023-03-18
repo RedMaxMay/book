@@ -1,9 +1,10 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import MobileNav from "../MobileNav/MobileNav";
 import OrderBtn from "../OrderBtn/OrderBtn";
 import s from "./style.module.css";
 
-export default function Header() {
+export default function Header({ modalToggle }) {
   const checkActive = ({ isActive }) => (isActive ? s.active : "");
   return (
     <header className={s.header}>
@@ -95,7 +96,10 @@ export default function Header() {
               Articles
             </NavLink>
           </nav>
-          <OrderBtn />
+          <OrderBtn modalToggle={modalToggle} />
+          <div className={s.mob_menu_wrap}>
+            <MobileNav />
+          </div>
         </div>
       </div>
     </header>

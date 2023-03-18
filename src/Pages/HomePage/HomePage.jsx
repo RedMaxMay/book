@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import OrderBtn from "../../Components/OrderBtn/OrderBtn";
 import s from "./style.module.css";
 import bookCover from "./the_dark_light_book_cover.png";
 
-export default function HomePage() {
+export default function HomePage({ modalToggle }) {
   return (
     <main className={s.main}>
       <div className={s.main_container}>
@@ -13,15 +14,23 @@ export default function HomePage() {
           <p className={s.main_slogan}>
             Your Books From <br /> The Best Writer.
           </p>
-          
+
+          <img
+            className={s.mob_img}
+            src={bookCover}
+            alt="'The Dark light' Book cover "
+          />
+
           <p className={s.main_left_text}>
             We believe that reading books are essential to a healthy culture.
             They’re where authors can connect with readers.
           </p>
 
           <div className={s.main_btns}>
-            <OrderBtn />
-            <a className={s.main_demo_link} href="#">Read Free Demo</a>
+            <OrderBtn modalToggle={modalToggle} />
+            <Link className={s.main_demo_link} to="/">
+              Read Free Demo
+            </Link>
           </div>
 
           <div className={s.main_features}>
@@ -47,7 +56,6 @@ export default function HomePage() {
             alt="'The Dark light' Book cover "
           />
         </div>
-
       </div>
     </main>
   );

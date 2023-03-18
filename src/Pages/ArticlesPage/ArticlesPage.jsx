@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import ArticlesBlock from "../../Components/ArticlesBlock/ArticlesBlock";
+import LearnBlock from "../../Components/LearnBlock/LearnBlock";
 
 export default function ArticlesPage() {
   return (
-    <main>ArticlesPage</main>
-  )
+    <main>
+      <LearnBlock />
+      <ArticlesBlock />
+    </main>
+  );
 }

@@ -1,0 +1,63 @@
+.learn_container {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.learn_wrap {
+  min-height: 600px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.learn_container h2 {
+  text-align: center;
+}
+
+.learn_left,
+.learn_right {
+  width: 50%;
+}
+
+.learn_right img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.learn_left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.learn_left div {
+  width: calc(50% - 30px);
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .learn_right {
+    display: none;
+  }
+  .learn_left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .learn_left div {
+    width: 100%;
+
+  }
+
+  .learn_wrap {
+    padding: 0 20px;
+  }
+}

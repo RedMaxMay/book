@@ -1,0 +1,35 @@
+.trusted_container {
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trusted_container h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.trusted_companies_list {
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .trusted_container {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .trusted_companies_list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}

@@ -1,4 +1,17 @@
-.btn {
+.main_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.main_container h1 {
+  color: var(--blue);
+  font-size: 45px;
+}
+
+.main_container a {
+  font-family: Car;
   padding: 15px 40px;
   border: none;
   background-color: var(--yellow);
@@ -8,9 +21,10 @@
   cursor: pointer;
   border: 1px solid var(--yellow);
   transition: all 0.4s ease;
+  text-decoration: none;
 }
 
-.btn:hover {
+.main_container a:hover {
   background-color: var(--blue);
   color: var(--yellow);
 }

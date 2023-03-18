@@ -91,8 +91,8 @@ export default function Footer() {
           <div className={s.footer_right_row}>
             <p>Address: </p>
             <p>
-              24A Kingston St, Los Vegas <br />
-              NC 28202, USA.
+              24A Kingston St,  <br />
+              Los Vegas, 28202, USA
             </p>
           </div>
           <div className={s.footer_right_row}>
