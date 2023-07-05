@@ -8,6 +8,11 @@
 .main_container h1 {
   color: var(--blue);
   font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.main img {
+  max-width: 300px;
 }
 
 .main_container a {

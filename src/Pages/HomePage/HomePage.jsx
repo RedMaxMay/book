@@ -28,7 +28,7 @@ export default function HomePage({ modalToggle }) {
 
           <div className={s.main_btns}>
             <OrderBtn modalToggle={modalToggle} />
-            <Link className={s.main_demo_link} to="/">
+            <Link className={s.main_demo_link} to="/book">
               Read Free Demo
             </Link>
           </div>

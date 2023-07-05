@@ -23,7 +23,7 @@ function App() {
       <Header modalToggle={modalToggle} />
 
       <Routes>
-        <Route path="/" element={<HomePage modalToggle={modalToggle} />} />
+        <Route path="/book" element={<HomePage modalToggle={modalToggle} />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/articles" element={<ArticlesPage />} />
         <Route path="/articles/:id" element={<SingleArticlePage />} />

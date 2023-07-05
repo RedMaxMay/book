@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./style.module.css";
 
 function MobileNav() {
@@ -17,7 +17,7 @@ function MobileNav() {
       ></button>
       <ul className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/book">Home</Link>
         </li>
         <li>
           <Link to="/about">Author</Link>

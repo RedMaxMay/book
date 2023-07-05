@@ -1,18 +1,18 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Heading from "../../Components/Heading/Heading";
-import articleService from "../../services/articles";
+import { articlesPrev } from "../../services/articles";
 import s from "./style.module.css";
 
 export default function SingleArticlePage() {
   const { id } = useParams();
 
-  const img = articleService.articlesPrev[id - 1].img;
-  const title = articleService.articlesPrev[id - 1].title;
-  const data = articleService.articlesPrev[id - 1].data;
-  const mainText = articleService.articlesPrev[id - 1].text;
-  const text2 = articleService.articlesPrev[id - 1].text2;
-  const text3 = articleService.articlesPrev[id - 1].text3;
+  const img = articlesPrev[id - 1].img;
+  const title = articlesPrev[id - 1].title;
+  const data = articlesPrev[id - 1].data;
+  const mainText = articlesPrev[id - 1].text;
+  const text2 = articlesPrev[id - 1].text2;
+  const text3 = articlesPrev[id - 1].text3;
 
   return (
     <main className={s.container}>

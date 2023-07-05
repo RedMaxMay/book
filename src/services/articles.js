@@ -2,7 +2,7 @@ import article_1 from "./article_1.png";
 import article_2 from "./article_2.png";
 import article_3 from "./article_3.png";
 
-const articlesPrev = [
+export const articlesPrev = [
   {
     id: 1,
     img: article_1,
@@ -40,6 +40,6 @@ const articlesPrev = [
   },
 ];
 
-export default {
-  articlesPrev,
-};
+// export default {
+//   articlesPrev,
+// };

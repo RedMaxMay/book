@@ -10,7 +10,7 @@ export default function Header({ modalToggle }) {
     <header className={s.header}>
       <div className={s.header_container}>
         <div className={s.header_left}>
-          <Link to="/">
+          <Link to="/book">
             <svg
               width="119"
               height="35"
@@ -83,7 +83,7 @@ export default function Header({ modalToggle }) {
         </div>
         <div className={s.header_right}>
           <nav className={s.nav}>
-            <NavLink className={checkActive} to="/">
+            <NavLink className={checkActive} to="/book">
               Home
             </NavLink>
             <NavLink className={checkActive} to="/about">

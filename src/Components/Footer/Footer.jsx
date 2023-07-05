@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={s.footer}>
       <div className={s.footer_container}>
         <div className={s.footer_left}>
-          <Link to="/">
+          <Link to="/book">
             <svg
               width="119"
               height="35"
@@ -79,7 +79,7 @@ export default function Footer() {
         <div className={s.footer_middle}>
           <h3>Explore</h3>
           <nav className={s.nav}>
-            <Link to="/">Home</Link>
+            <Link to="/book">Home</Link>
             <Link to="/about">Author</Link>
             <Link to="/companies">Companies</Link>
             <Link to="/articles">Articles</Link>

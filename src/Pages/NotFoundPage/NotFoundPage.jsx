@@ -9,7 +9,7 @@ export default function NotFoundPage() {
       <div className={s.main_container}>
         <img src={img} alt="404 error" />
         <h1>Page Not Found :( </h1>
-        <Link to="/">Go Home</Link>
+        <Link to="/book">Go Home</Link>
       </div>
     </main>
   );
