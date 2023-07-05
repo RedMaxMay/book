@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/book/static/css/main.252ca3a4.css",
-    "main.js": "/book/static/js/main.7c3e7e4f.js",
+    "main.css": "/book/static/css/main.ab6a5b51.css",
+    "main.js": "/book/static/js/main.c80c22cf.js",
     "static/media/book.png": "/book/static/media/book.c5da0ee0e1153facb001.png",
     "static/media/article_3.png": "/book/static/media/article_3.813bc6e7ad55ac697029.png",
     "static/media/article_2.png": "/book/static/media/article_2.55e4c84ac25ffdee225d.png",
@@ -14,11 +14,11 @@
     "static/media/the_dark_light_book_cover.png": "/book/static/media/the_dark_light_book_cover.b70706e1f49cdae70972.png",
     "static/media/urban_store.png": "/book/static/media/urban_store.212aa2b40c1ea6773e87.png",
     "index.html": "/book/index.html",
-    "main.252ca3a4.css.map": "/book/static/css/main.252ca3a4.css.map",
-    "main.7c3e7e4f.js.map": "/book/static/js/main.7c3e7e4f.js.map"
+    "main.ab6a5b51.css.map": "/book/static/css/main.ab6a5b51.css.map",
+    "main.c80c22cf.js.map": "/book/static/js/main.c80c22cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.252ca3a4.css",
-    "static/js/main.7c3e7e4f.js"
+    "static/css/main.ab6a5b51.css",
+    "static/js/main.c80c22cf.js"
   ]
 }
